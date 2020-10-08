@@ -470,8 +470,5 @@ module.exports = {
     'babel/new-cap': [
       'error'
     ],
-    'react/jsx-no-undef': [
-      'error'
-    ]
   },
 };
