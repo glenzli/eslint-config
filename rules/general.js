@@ -329,7 +329,8 @@ module.exports = {
       'error',
       {
         'args': 'after-used',
-        'ignoreRestSiblings': true
+        "argsIgnorePattern": "^_",
+        'ignoreRestSiblings': true,
       }
     ],
     'no-useless-constructor': 'off',
